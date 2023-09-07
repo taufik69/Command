@@ -6,7 +6,9 @@ const jsScaffholding = require("./content/jsScaffholding");
 
 const wholeFunction = () => {
   try {
-    const folderName = ["js", "css"];
+    // make css and js file include style.css and main.js
+
+    const folderName = ["js", "css", "images"];
     for (let i = 0; i < folderName.length; i++) {
       fs.mkdirSync(folderName[i], (err) => {
         if (err) {
