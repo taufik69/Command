@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+const htmlScaffholding = `<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -10,3 +10,6 @@
     <script src="js/main.js"></script>
   </body>
 </html>
+`;
+
+module.exports = htmlScaffholding;

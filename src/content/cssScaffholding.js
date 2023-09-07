@@ -1,4 +1,4 @@
-
+const cssScaffholding = `
 * {
 margin: 0;
 padding: 0;
@@ -26,3 +26,6 @@ li {
 padding: 0;
 margin: 0;
 }
+`;
+
+module.exports = cssScaffholding;
