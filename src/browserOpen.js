@@ -1,14 +1,14 @@
-const path = require("path");
-const open = require("open");
-
-const browserOpen = (filePath) => {
+const { exec } = require("child_process");
+const browserOpen = (pathUrl) => {
   // Open the file in the default web browser
-  try {
-    let givenFilePath = `${path.resolve(__dirname)}\\index.html`;
-    open(givenFilePath, { wait: true });
-  } catch (error) {
-    console.error(`Error opening ${givenFilePath}:`, error);
-  }
+  exec(pathUrl, (error, stdout) => {
+    if (error) {
+      console.error(`Error executing command: ${error}`);
+      return;
+    }
+
+    console.log(`Command output:\n${stdout}`);
+  });
 };
 
 module.exports = browserOpen;

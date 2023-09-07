@@ -1,5 +1,4 @@
 {
-  "type": "module",
   "dependencies": {
     "open": "^9.1.0",
     "yargs": "^17.7.2"

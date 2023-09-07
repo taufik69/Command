@@ -1,8 +1,9 @@
 const { argv } = require("yargs");
-const { MAMABANA, OPEN } = require("./src/command");
+const { MAMABANA, JAMAMA } = require("./src/command");
 const { log } = require("console");
 const wholeFunction = require("./src/wholeFunciton");
 const browserOpen = require("./src/browserOpen");
+const path = require("path");
 (() => {
   const { _: Command } = argv;
   switch (Command[0]) {
@@ -12,9 +13,9 @@ const browserOpen = require("./src/browserOpen");
       log("congratulation all done , 0 vourlabilities");
       break;
     }
-    case OPEN: {
+    case JAMAMA: {
       // let currentDir = process.cwd();
-      browserOpen("index.html");
+      browserOpen(`${path.resolve(__dirname)}\\index.html`);
       break;
     }
     default: {

@@ -26,6 +26,12 @@ li {
 padding: 0;
 margin: 0;
 }
+
+.Taufik{
+  text-align:center;
+  color :green;
+  transform: translateY(-1100%);
+}
 `;
 
 module.exports = cssScaffholding;

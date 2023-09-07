@@ -7,6 +7,7 @@ const htmlScaffholding = `<!DOCTYPE html>
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
+    <h1 class="Taufik"> This pakage build by Taufik islam </h1>
     <script src="js/main.js"></script>
   </body>
 </html>
