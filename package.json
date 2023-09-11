@@ -4,7 +4,7 @@
     "type": "git",
     "url": "https://github.com/taufik69/Command.git"
   },
-  "version": "0.0.1",
+  "version": "0.1.1",
   "description": "This is a small libray for web designer , most of the time they are spend to crate a file structure , this libray make you a superman of strucring file . ",
   "main": "index.js",
   "scripts": {
